@@ -1,0 +1,130 @@
+.footer-container {
+  background-color: #42a6bd;
+  color: #0a1a57ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Merriweather Sans", sans-serif;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1 1 30%;
+  min-width: 280px;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-icons a {
+  color: #caf0f8;
+  font-size: 1.3rem;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.social-icon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+  height: 24px;
+}
+
+.x-icon {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background-color: #d2691e;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.investments p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.consulting-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 280px;
+}
+
+.consulting-form input[type="email"] {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.consulting-form button {
+  background-color: #d2691e;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.consulting-form button:hover {
+  background-color: #b55a17;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .footer-section {
+    min-width: 100%;
+    padding: 0; /* Remove individual section padding if any */
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .consulting-form {
+    margin: 0 auto;
+  }
+}

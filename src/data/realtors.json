@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "G1 Realty Agent",
+    "title": "Senior Realtor",
+    "phone": "123-456-7890",
+    "email": "agent1@global1realty.com",
+    "image": "/src/assets/images/contact-us-4193523_1280.jpg"
+  },
+  {
+    "id": 2,
+    "name": "G1 Realty Agent 2",
+    "title": "Lead Agent",
+    "phone": "098-765-4321",
+    "email": "agent2@global1realty.com",
+    "image": "/src/assets/images/contact-us-4193523_1280.jpg"
+  },
+  {
+    "id": 3,
+    "name": "G1 Realty Agent",
+    "title": "Realtor",
+    "phone": "555-555-5555",
+    "email": "agent3@global1realty.com",
+    "image": "/src/assets/images/contact-us-4193523_1280.jpg"
+  }
+]
